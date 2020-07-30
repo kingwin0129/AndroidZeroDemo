@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="fill_parent"
+        android:layout_height="100sp"
+        android:text="Hello World! Android"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_execute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5530FF"
+        android:text="进入世界"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="150dp"
+        ></Button>
+
+</RelativeLayout>
